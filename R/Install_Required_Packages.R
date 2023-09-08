@@ -10,6 +10,7 @@
 
 Install_Required_Packages <- function(x) {
   # library(webinar.cpom)
+  x=x
   install.packages("quantmod")
   install.packages("PerformanceAnalytics")
   install.packages("magrittr")
