@@ -1,16 +1,18 @@
 #' Install_Required_Packages
 #' Install all necessary packages for required commands.
 #' @export
-#' @param x No required parameters
+#' @param x='ALL' is required parameter
 
 
 #' @examples
-#' Install_Required_Packages()
+#' Install_Required_Packages(x=c('ALL'))
 #'
 
 Install_Required_Packages <- function(x) {
-  # library(webinar.cpom)
+  if(x=='ALL') {
   x=x
+  # library(webinar.cpom)
+
   install.packages("quantmod")
   install.packages("PerformanceAnalytics")
   install.packages("magrittr")
@@ -41,6 +43,7 @@ Install_Required_Packages <- function(x) {
   install.packages("MFDFA")
   install.packages("DEoptim")
   install.packages("rvest")
+    }
   x="Todos instalados"
   print(x)
 }
