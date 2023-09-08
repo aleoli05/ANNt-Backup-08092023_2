@@ -4,15 +4,15 @@
 \alias{Install_Required_Package}
 \title{Install all necessary packages for required commands.}
 \usage{
-Install_Required_Package(x)
+Install_Required_Packages(x)
 }
 \arguments{
-\item{()}{No required parameters}
+\item{x='ALL'}{is required parameters}
 }
 \description{
 Install all necessary packages for required commands.
 }
 \examples{
-Install_Required_Package()
+Install_Required_Packages()
 
 }
