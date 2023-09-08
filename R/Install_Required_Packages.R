@@ -1,13 +1,14 @@
+#' Install_Required_Packages
 #' Install all necessary packages for required commands.
 #' @export
-#' @param () No required parameters
+#' @param x No required parameters
 
 
 #' @examples
-#' Install_Required_Package()
+#' Install_Required_Packages()
 #'
 
-Install_Required_Package <- function(x) {
+Install_Required_Packages <- function(x) {
   # library(webinar.cpom)
   install.packages("quantmod")
   install.packages("PerformanceAnalytics")
